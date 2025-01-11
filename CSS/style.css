@@ -263,15 +263,87 @@ p.innovation {
   justify-content: space-between;
   align-items: center;
   border: 1.5px solid #0e0e0e1a;
-  padding: 10px auto;
+  padding: 15px 15px;
 }
 
 .question {
-  font-size: 500px;
+  font-size: 20px;
   font-weight: 700;
   padding: 15px 15px;
 }
 
 .select {
-  background-color: #C6E4D6;
+  background-color: #c6e4d6;
+}
+
+/* Recent News part */
+
+.news-h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.news-p{
+  font-size: 16px;
+  font-weight: normal;
+  color: #0e0e0e98;
+  margin-top: 20px;
+}
+
+.news-titel{
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-left: 300px;
+}
+
+.satelite-img{
+  border: 0;
+  border-radius: 24px;
+}
+
+div .satellite-content h1{
+  color: #0E0E0E;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+div .satellite-content img{
+  margin-bottom: 10px;
+}
+
+div .satellite-content p{
+  color: #0e0e0e9d;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+div .satellite-content p span{
+  margin-left: 10px;
+}
+
+div .satellite-content button{
+  background-color: #006A50;
+  border: 0;
+  border-radius: 8px;
+  width: 139px;
+  height: 48px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.satellite-content-position{
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  width: 1320px;
+  height: 402px;
+  border: 0;
+  border-radius: 24px;
+  margin: 20px auto;
 }
