@@ -283,67 +283,127 @@ p.innovation {
   font-weight: bold;
 }
 
-.news-p{
+.news-p {
   font-size: 16px;
   font-weight: normal;
   color: #0e0e0e98;
   margin-top: 20px;
 }
 
-.news-titel{
+.news-titel {
   margin-top: 60px;
   margin-bottom: 30px;
   margin-left: 300px;
 }
 
-.satelite-img{
+.satelite-img {
   border: 0;
   border-radius: 24px;
 }
 
-div .satellite-content h1{
-  color: #0E0E0E;
+div .satellite-content h1 {
+  color: #0e0e0e;
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-div .satellite-content img{
+div .satellite-content img {
   margin-bottom: 10px;
 }
 
-div .satellite-content p{
+div .satellite-content p {
   color: #0e0e0e9d;
   font-size: 16px;
   font-weight: normal;
   margin-bottom: 10px;
 }
 
-div .satellite-content p span{
+div .satellite-content p span {
   margin-left: 10px;
 }
 
-div .satellite-content button{
-  background-color: #006A50;
+div .satellite-content button {
+  background-color: #006a50;
   border: 0;
   border-radius: 8px;
   width: 139px;
   height: 48px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 18px;
   font-weight: 400;
   margin-top: 30px;
 }
 
-.satellite-content-position{
+.satellite-content-position {
   display: flex;
   justify-content: space-around;
   justify-items: center;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 1320px;
   height: 402px;
   border: 0;
   border-radius: 24px;
   margin: 20px auto;
+}
+
+/* Donate part */
+
+.donate-container h1 {
+  color: #0e0e0e;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.donate-container p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0e0e0eb6;
+  margin-bottom: 20px;
+}
+
+.donate-container div button {
+  width: 240px;
+  height: 128px;
+  background-color: #ffffff;
+  border: 1px solid #0e0e0e34;
+  border-radius: 16px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0ebb;
+  margin: 15px;
+  margin-bottom: 20px;
+}
+
+.donate-container input {
+  width: 1032px;
+  height: 64px;
+  border: 0;
+  border-bottom: 1px solid #0e0e0e34;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.donate-container button {
+  height: 56px;
+  width: 151px;
+  border: 0;
+  border-radius: 8px;
+  background-color: #006a50;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.donate-container{
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
 }
