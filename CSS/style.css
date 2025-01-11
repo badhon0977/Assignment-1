@@ -176,10 +176,51 @@ p.innovation {
   border: 0;
 }
 
-.future-vision{
+.future-vision {
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
   margin-left: 310px;
   margin-right: 310px;
+}
+
+/* Dr. Muhammad Yunus part */
+
+.special-text {
+  background-color: #ffffff;
+  width: 1280px;
+  height: 256px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin: 40px 300px;
+  border: 1px solid #0e0e0e27;
+  border-radius: 16px;
+}
+
+.background-img {
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.special-p {
+  margin-bottom: 10px;
+  color: #0e0e0e;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.special-h3 {
+  color: #0e0e0e;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.special-h3-p {
+  color: #0e0e0e86;
+  font-size: 16px;
+  font-weight: normal;
 }
