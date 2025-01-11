@@ -401,9 +401,71 @@ div .satellite-content button {
   font-weight: 400;
 }
 
-.donate-container{
+.donate-container {
   justify-content: center;
   justify-items: center;
   align-items: center;
   text-align: center;
+}
+
+/* Subscribe Newsletter part */
+
+.subscribe-part h1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 80px;
+}
+
+.subscribe-part p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0e0e0e;
+  padding-top: 20px;
+}
+
+.subscribe-part input[type="text"] {
+  width: 600px;
+  height: 55px;
+  font-size: 16px;
+  font-weight: normal;
+  border: 0;
+  border-radius: 8px 0 0 8px;
+}
+
+.subscribe-part button {
+  width: 150px;
+  height: 56px;
+  background-color: #006a50;
+  color: #ffffff;
+  border: 0;
+  border-radius: 0 8px 8px 0;
+  font-size: 16px;
+  font-weight: 550;
+}
+
+.under-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0e0e0e;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  gap: 0;
+  padding-top: 20px;
+}
+
+.subscribe-part {
+  width: 1380px;
+  height: 395px;
+  background-color: #c6e4d6;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 70px auto;
+  border: 0;
+  border-radius: 24px;
 }
