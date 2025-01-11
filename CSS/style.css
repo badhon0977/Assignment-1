@@ -469,3 +469,34 @@ form {
   border: 0;
   border-radius: 24px;
 }
+
+/* footer part */
+
+footer h1 {
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.line {
+  border-top: 0.5px solid;
+  color: #0e0e0e17;
+  padding-bottom: 20px;
+  width: 1500px;
+}
+
+footer .social-icon {
+  display: flex;
+  gap: 20px;
+}
+
+footer {
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
